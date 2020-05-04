@@ -1,0 +1,1 @@
+In for...of you can deconstruct the interator into the index and the value!

@@ -44,7 +44,7 @@ Primitive - string, boolean, number
 
 Primitives are copied by value, non-primitives are copied by reference.
 
-Path by value, path by reference
+Pass by value, pass by reference
 
 Good for one class of data (a list of people, or flavours, or something)
 

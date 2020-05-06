@@ -11,5 +11,7 @@
   * [Day 4](/Week_1/Day_4)
 * [Week 2 - Async & Testing](/Week_2)
   * [Day 1](/Week_2/Day_1)
+  * [Day 2 - Async Code](/Week_2/Day_2)
+  * [Day 3 - Protocol, Servers](/Week_2/Day_3)
 
   

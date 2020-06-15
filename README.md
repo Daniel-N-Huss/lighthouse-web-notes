@@ -17,5 +17,9 @@
 * [Week 3 - Servers - HTTP](/Week_3)
   * [Day 1 - HTTP Servers](/Week_3/D1)
   * [Day 2 - Express and Routing](/Week_3/D2)
+  * [Day 3 - ](/Week_3/D3)
+  * [Day 4 - Security and Real World HTTP Servers](/Week_3/D4)
+* [Week 4 - Front End](/Week_4)
+  * 
 
   

@@ -71,3 +71,37 @@ query tests will not fail out, get tests will.
 Pulling test methods off of a particular container gives it the context it needs, but if we bring in those tests globally we need to give the container to the method when its called. 
 
 We don't need to have a virtual click, we can fire an event that matches what a click would be. Event is called .click, and the let it know what you want. 
+
+
+debug() & prettyDOM() as ways of seeing what gets rendered in our tests.
+
+Mocking Axios:
+
+```js
+import axios from 'axios'
+jest.mock('axios')
+
+//set fake data
+
+const data = {
+  resultCount: 3,
+  scores: [{id:1, name:'Danny', Score:10}]
+};
+
+
+test('mock axios', () => {
+  const {getByTestId} = render(<Result status="Waiting" />);
+  const button = getByTestId('high-scores');
+
+  //set up mock axios, from Jest
+
+  axios.get.mockResolvedValuesOnce({ data });
+
+  fireEvent.click(button);
+
+  findByText('Bob')
+});
+```
+
+
+We can return a value from our test, and then the test will wait for when we want to test asynchronously.
